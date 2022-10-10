@@ -1,21 +1,20 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Uwie Chan Spop",
+  "url": "https://uwie.my.id/",
+  "language": "id",
+  "description": "Toko online "Uwie Chan Shop" oleh Dwi Handayani (Uwie).",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Toko online "Uwie Chan Shop" oleh Dwi Handayani (Uwie).",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://uwie.my.id/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://uwie.my.id/feed/feed.json"
   },
   "author": {
     "name": "Your Name Here",
     "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
   }
 }
