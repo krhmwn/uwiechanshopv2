@@ -9,3 +9,5 @@ main p:first-child {
   padding: 1.5rem;
   margin: 2rem 0;
 }
+
+header h1{margin:4rem auto}
