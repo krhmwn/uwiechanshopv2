@@ -10,4 +10,4 @@ main p:first-child {
   margin: 2rem 0;
 }
 
-header h1{margin:4rem auto}
+body>header h1{margin:4rem auto}
