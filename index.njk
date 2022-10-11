@@ -9,8 +9,8 @@ eleventyNavigation:
 Toko online Uwie Chan Shop oleh Dwi Handayani (Uwie)
 </div>
 
-{% set maxPosts = collections.posts.length | min(3) %}
+{% set maxPosts = collections.posts.length | min(200) %}
 <h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
-{% set postslist = collections.posts | head(-3) %}
+{% set postslist = collections.posts | head(-200) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
