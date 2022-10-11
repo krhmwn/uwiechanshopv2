@@ -11,3 +11,32 @@ main p:first-child {
 }
 
 body>header h1{margin:4rem auto}
+
+main {
+width: min(100ch,100vw - 1rem);
+margin: 0 auto;
+padding: 1rem;
+}
+
+.productlist
+{
+	list-style:none;
+	padding:0;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	gap:2rem;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap
+}
+
+.productlist-item
+{
+	line-height:1.8;
+	padding:1rem;
+	border:.063rem solid var(--lightgray);
+	border-radius:.25rem;
+	-webkit-box-flex:1;
+	-ms-flex:1 1 25ch;
+	flex:1 1 25ch
+}
