@@ -10,6 +10,11 @@ main p:first-child {
   margin: 2rem 0;
 }
 
+body {
+display:block;
+grid-template-columns:auto;
+}
+
 body>header h1{margin:4rem auto}
 
 main {
@@ -34,7 +39,7 @@ padding: 1rem;
 {
 	line-height:1.8;
 	padding:1rem;
-	border:.063rem solid var(--lightgray);
+	border:.065rem solid var(--border);
 	border-radius:.25rem;
 	-webkit-box-flex:1;
 	-ms-flex:1 1 25ch;
