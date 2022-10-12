@@ -11,6 +11,7 @@ main p:first-child {
 }
 
 body {
+color:var(--code);
 display:block;
 grid-template-columns:auto;
 }
