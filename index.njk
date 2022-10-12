@@ -10,7 +10,7 @@ Toko online Uwie Chan Shop oleh Dwi Handayani (Uwie)
 </div>
 
 {% set maxPosts = collections.posts.length | min(200) %}
-<h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
+<p>Total {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} produk{% endif %}</p>
 {% set postslist = collections.posts | head(-200) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
