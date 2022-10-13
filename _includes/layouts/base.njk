@@ -9,9 +9,6 @@
   <meta name="generator" content="{{ eleventy.generator }}">
 
   <link rel="stylesheet" href="{{ '/css/simple.min.css' | url }}">
-  <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
-  <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">
-
   <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
   <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
@@ -19,7 +16,6 @@
 
 <body>
   <header>
-    {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
     <nav>
       <ul>
         {%- for entry in collections.all | eleventyNavigation %}
@@ -32,18 +28,12 @@
     <h1>{%- if title %}{{ title }}{%- else %}{{ metadata.title }}{%- endif %}</h1>
     <p>{% if description %}{{ description }}{% else %}Toko online Uwie Chan Shop oleh Dwi Handayani (Uwie){% endif %}</p>
   </header>
-
   <main>
     {{ content | safe }}
   </main>
-
   <footer>
-    <p><a href="https://simplecss.org">Simple.css</a> was created by <a href="https://kevq.uk">Kev Quirk</a> and is
-      licensed under the MIT license.</p>
-    <p>Starter template by <a href="https://www.lkhrs.com">Luke Harris</a>.</p>
+    <p><a href="https://simplecss.org">Simple.css</a> was created by <a href="https://kevq.uk">Kev Quirk</a></p>
   </footer>
-
   <!-- Current page: {{ page.url | url }} -->
 </body>
-
 </html>
