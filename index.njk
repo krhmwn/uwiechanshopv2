@@ -5,10 +5,6 @@ eleventyNavigation:
   key: Beranda
   order: 1
 ---
-<div class="notice">
-Toko online Uwie Chan Shop oleh Dwi Handayani (Uwie)
-</div>
-
 {% set maxPosts = collections.posts.length | min(200) %}
 <p>Total {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} produk{% endif %}</p>
 {% set postslist = collections.posts | head(-200) %}
