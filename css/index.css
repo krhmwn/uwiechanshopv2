@@ -9,7 +9,8 @@ display:block;
 grid-template-columns:auto;
 }
 
-body>header h1{margin:4rem auto}
+body>header {padding: 4rem 1rem}
+body>header h1{margin:2.5rem auto}
 
 main {
 width: min(100ch,100vw - 1rem);
