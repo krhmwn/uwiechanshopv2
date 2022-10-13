@@ -38,4 +38,4 @@ header>nav {padding: 0.75rem 0 0 0;}
 	-ms-flex:1 1 20ch;
 	flex:1 1 20ch
 }
-body>footer {font-size: 1rem;}
+body>footer {color:var(--code);font-size: 1rem;}
